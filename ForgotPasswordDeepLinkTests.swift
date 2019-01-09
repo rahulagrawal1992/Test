@@ -10,7 +10,7 @@ import XCTest
 @testable import Techgig
 
 class ForgotPasswordDeepLinkTests: XCTestCase {
-
+// changes in feature 1
     let forgotPassword = "https://www.techgig.com/change_password.php"
         + "?forgot_password_id=ffa930ed2280fc37ffc5b3832b099a3d"
         + "&email=timesgroup.sahil@gmail.com" + "&activity_name=tgforgotpwd_2016-09-21"
