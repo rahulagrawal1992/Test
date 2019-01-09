@@ -11,7 +11,11 @@ import XCTest
 
 class ForgotPasswordDeepLinkTests: XCTestCase {
 
-    let test = String("gajsdgajkhsd")
+    //Globel changes
+    let feature2 = String("Feature2")
+    
+    
+
     let forgotPassword = "https://www.techgig.com/change_password.php"
         + "?forgot_password_id=ffa930ed2280fc37ffc5b3832b099a3d"
         + "&email=timesgroup.sahil@gmail.com" + "&activity_name=tgforgotpwd_2016-09-21"
