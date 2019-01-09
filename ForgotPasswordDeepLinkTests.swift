@@ -14,10 +14,12 @@ class ForgotPasswordDeepLinkTests: XCTestCase {
     //Globel changes
     let feature2 = String("Feature2")
     
-    // test - sjdlfkjsldk;flksdfj;klaf    
 
+    
+asdnm.asNDasdka/
+>>>>>>> 01bacc755076a3ee5ce0ab151f509772a8bac351
     let forgotPassword = "https://www.techgig.com/change_password.php"
-        + "?forgot_password_id=ffa930ed2280fc37ffc5b3832b099a3d"
+        + "?forgot_password_id=ffa930ed2280fc37ffc5b3832b099a3i"
         + "&email=timesgroup.sahil@gmail.com" + "&activity_name=tgforgotpwd_2016-09-21"
     
     let forgotPasswordCustom = TechgigTests.customDeepLinkPath + "/change_password.php"
@@ -34,7 +36,7 @@ class ForgotPasswordDeepLinkTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+   
     func testForgotPassword() {
         XCTAssertTrue(TechgigTests.setMyDeepLink(url: forgotPassword)
             == .changePassword(activityName: "tgforgotpwd_2016-09-21",
